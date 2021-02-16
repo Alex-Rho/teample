@@ -1,18 +1,22 @@
 import React from 'react';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGoogle, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+
 function Exlog() {
     return (
         <div className="container">
             <button type="button" className="btn btn-outline-dark w-100 mt-3">
-                <i className="bi bi-google mr-1"></i>
+            <FontAwesomeIcon className="mr-1" icon={faGoogle} />
                 Continue With Google
             </button>
             <button type="button" className="btn btn-outline-dark w-100 mt-3">
-                <i className="bi bi-facebook mr-1"></i>
+                <FontAwesomeIcon className="mr-1" icon={faFacebook} />
                 Continue With Facebook
             </button>
-            <button type="button" className="btn btn-outline-dark w-100 mt-3">
-                <i className="bi bi-linkedin mr-1"></i>
+            <button type="button" className="btn btn-outline-dark w-100 mt-3 mb-3">
+                <FontAwesomeIcon className="mr-1" icon={faLinkedin} />
                 Continue With Linkedin
             </button>
         </div>

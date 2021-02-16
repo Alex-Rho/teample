@@ -11,14 +11,14 @@ import Login from './pages/Login';
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
       <div className="App">
         <Nav />
         <Route path="/" exact component={Home} />
         <Route path="/login" exact component={Login} />  
         <Footer />
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 
