@@ -10,6 +10,7 @@
 
 .has-search input {
   padding-left: 2.375rem;
+  color: #aaa;
 }
 
 .has-search .form-control-feedback {
