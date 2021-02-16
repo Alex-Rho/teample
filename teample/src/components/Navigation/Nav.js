@@ -11,8 +11,10 @@ function Nav() {
             <Link className="navbar-brand" to="/">
                 <img src={logo} width="auto" height="60" alt="" loading="lazy" />
             </Link>
-            <FontAwesomeIcon icon={faSearch} />
-            <input placeholder="Search Teample"></input>
+            <div class="form-group has-search w-25 m-auto">
+                <FontAwesomeIcon className="form-control-feedback mt-2 ml-2" icon={faSearch} />
+                <input type="text" class="form-control" placeholder="Search Teample" />
+            </div>
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                 <Link className="nav-link" to="/">Post</Link>
@@ -24,10 +26,10 @@ function Nav() {
                 <Link className="nav-link" to="/">Sip Link tip</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link" to="/">Log In</Link>
+                <Link className="nav-link" to="/login">Log In</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link" to="/">Sign Up</Link>
+                <Link className="nav-link" to="/login">Sign Up</Link>
                 </li>
             </ul>
         </nav>

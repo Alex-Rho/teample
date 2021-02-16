@@ -8,11 +8,20 @@
   padding-bottom: 200px;
 }
 
-input {
-  border: 0;
-  outline: 0;
-  background: transparent;
-  border-bottom: 1px solid black;
+.has-search input {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
 }
 
 .back-to-top {
