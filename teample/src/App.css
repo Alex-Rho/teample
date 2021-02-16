@@ -25,12 +25,6 @@
   color: #aaa;
 }
 
-.back-to-top {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-}
-
 .footer {
 position: absolute;
 text-align: center;
