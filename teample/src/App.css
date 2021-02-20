@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 
 .App {
   background-color: #EFEFEF;
@@ -23,6 +24,23 @@
   text-align: center;
   pointer-events: none;
   color: #aaa;
+}
+
+h2.login {
+  margin-top: 34px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  color: #293854;
+}
+
+p.welcome {
+  color: #73839C;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.form-group {
+  height: 50px;
 }
 
 .footer {

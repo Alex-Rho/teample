@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 
 import Home from './pages/Home';
 import Login from './pages/Login';
+import Signup from './pages/Signup';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <div className="App">
         <Nav />
         <Route path="/" exact component={Home} />
-        <Route path="/login" exact component={Login} />  
+        <Route path="/login" exact component={Login} /> 
+        <Route path="/signup" exact component={Signup} />
         <Footer />
       </div>
     </Router>

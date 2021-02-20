@@ -1,23 +1,19 @@
 import React from 'react';
 
 import Exlog from '../components/Login/Exlog';
-import LogForm from '../components/Login/LogForm';
+import SignForm from '../components/Login/SignForm';
 
-function Login() {
+function Signup() {
     return (
         <div className="mx-auto" style={{marginTop: "100px", width: "450px", backgroundColor: "rgba(255, 255, 255, 0.5)"}}>
             <div className="card text-center container">
-                <h2 className="card-title login">Login</h2>
+                <h2 className="card-title login">Sign Up</h2>
                 <p className="card-text welcome">Welcome to Teample!</p>
-                <LogForm />
+                <SignForm />
                 <Exlog />
-                <div class="container mb-3">
-                    <a class="dropdown-item" href="/signup">New around here? Sign up</a>
-                    <a class="dropdown-item" href="#">Forgot password?</a>
-                </div>
             </div>
         </div>
     );
 }
 
-export default Login;
+export default Signup;
