@@ -5,7 +5,7 @@ import LogForm from '../components/Login/LogForm';
 
 function Login() {
     return (
-        <div className="mx-auto" style={{marginTop: "100px", width: "450px", backgroundColor: "rgba(255, 255, 255, 0.5)"}}>
+        <div className="mx-auto" style={{marginTop: "100px", width: "450px"}}>
             <div className="card text-center container">
                 <h2 className="card-title login">Login</h2>
                 <p className="card-text welcome">Welcome to Teample!</p>
