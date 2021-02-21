@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGoogle, faFacebook } from '@fortawesome/free-brands-svg-icons';
-
 import firebase from "../../firebase/firebase";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth"
 
@@ -15,9 +12,9 @@ class Exlog extends Component {
             firebase.auth.FacebookAuthProvider.PROVIDER_ID
         ],
         callbacks: {
-          signInSuccess: () => false
+            signInSuccess: () => false
         }
-      }
+    }
 
     render() {
         return (
