@@ -13,6 +13,8 @@ import Profile from './pages/Profile';
 
 import firebase from './firebase/firebase';
 
+firebase.analytics().logEvent('notification_received');
+
 class App extends React.Component {
   constructor() {
     super();
