@@ -27,7 +27,7 @@
 }
 
 .log-sign-form {
-  background: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
 h2.login {
@@ -41,10 +41,6 @@ p.welcome {
   color: #73839C;
   margin-top: 20px;
   margin-bottom: 35px;
-}
-
-.form-group {
-  height: 50px;
 }
 
 .footer {

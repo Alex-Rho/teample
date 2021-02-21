@@ -23,13 +23,10 @@ function Nav() {
                 <Link className="nav-link" to="/">Explore</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link" to="/">Sip Link tip</Link>
+                <Link className="nav-link" to="/">Sip a tip</Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link" to="/login">Log In</Link>
-                </li>
-                <li className="nav-item">
-                <Link className="nav-link" to="/signup">Sign Up</Link>
+                <Link className="nav-link" to="/login">Log In/Sign up</Link>
                 </li>
             </ul>
         </nav>
